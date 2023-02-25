@@ -13,7 +13,6 @@ module top_module (
 
   reg [2:0] state, next_state;
   parameter LEFT = 3'b000, RIGHT = 3'b001, FALL_L = 3'b010, FALL_R = 3'b011, DIG_L = 3'b100, DIG_R = 3'b101, DEAD = 3'b110;
-  logic   alive;
   integer count;
 
   always @(*) begin
