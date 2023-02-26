@@ -1,3 +1,8 @@
+// This design 'may' not be synthesizable as there appears to be
+// a feedback in combinational logic during function and task calls.
+//
+// This design is certainly not synthesizable as it contains an
+// initial block.
 
 module task_and_function ();
 
