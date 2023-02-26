@@ -1,3 +1,6 @@
+// This code does not clear all tests.
+// It needs some work.
+
 module top_module (
     input  clk,
     input  in,
